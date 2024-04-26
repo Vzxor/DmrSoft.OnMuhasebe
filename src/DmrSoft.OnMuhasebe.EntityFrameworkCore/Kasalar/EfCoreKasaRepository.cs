@@ -8,5 +8,6 @@ public class EfCoreKasaRepository:EfCoreCommonRepository<Kasa>
 {
     public EfCoreKasaRepository(IDbContextProvider<OnMuhasebeDbContext> dbContextProvider) : base(dbContextProvider)
     {
+        //testd
     }
 }
