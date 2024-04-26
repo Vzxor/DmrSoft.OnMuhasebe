@@ -4,7 +4,7 @@ using Volo.Abp.EntityFrameworkCore;
 
 namespace DmrSoft.OnMuhasebe.Kasalar;
 
-public class EfCoreKasaRepository:EfCoreCommonRepository<Kasa>
+public class EfCoreKasaRepository:EfCoreCommonRepository<Kasa>,IKasaRepository
 {
     public EfCoreKasaRepository(IDbContextProvider<OnMuhasebeDbContext> dbContextProvider) : base(dbContextProvider)
     {

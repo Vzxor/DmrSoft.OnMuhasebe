@@ -4,7 +4,7 @@ using Volo.Abp.EntityFrameworkCore;
 
 namespace DmrSoft.OnMuhasebe.Depolar;
 
-public class EFCoreDepoRepository:EfCoreCommonRepository<Depo>
+public class EFCoreDepoRepository:EfCoreCommonRepository<Depo>,IDepoRepository
 {
     public EFCoreDepoRepository(IDbContextProvider<OnMuhasebeDbContext> dbContextProvider) : base(dbContextProvider)
     {

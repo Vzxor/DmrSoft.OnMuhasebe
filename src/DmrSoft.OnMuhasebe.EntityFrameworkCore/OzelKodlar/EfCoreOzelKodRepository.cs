@@ -4,7 +4,7 @@ using Volo.Abp.EntityFrameworkCore;
 
 namespace DmrSoft.OnMuhasebe.OzelKodlar;
 
-public class EfCoreOzelKodRepository:EfCoreCommonRepository<OzelKod>
+public class EfCoreOzelKodRepository:EfCoreCommonRepository<OzelKod>,IOzelKodRpository
 {
     public EfCoreOzelKodRepository(IDbContextProvider<OnMuhasebeDbContext> dbContextProvider) : base(dbContextProvider)
     {

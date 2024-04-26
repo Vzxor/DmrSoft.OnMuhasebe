@@ -4,7 +4,7 @@ using Volo.Abp.EntityFrameworkCore;
 
 namespace DmrSoft.OnMuhasebe.Subeler;
 
-public class EfCoreSubeRepository:EfCoreCommonRepository<Sube>
+public class EfCoreSubeRepository:EfCoreCommonRepository<Sube>,ISubeRepository
 {
     public EfCoreSubeRepository(IDbContextProvider<OnMuhasebeDbContext> dbContextProvider) : base(dbContextProvider)
     {
