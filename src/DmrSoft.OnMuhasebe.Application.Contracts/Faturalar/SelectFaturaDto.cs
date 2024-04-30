@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using DmrSoft.OnMuhasebe.CommonDtos;
+using DmrSoft.OnMuhasebe.FaturaHareketler;
 using Volo.Abp.Application.Dtos;
 
 namespace DmrSoft.OnMuhasebe.Faturalar;

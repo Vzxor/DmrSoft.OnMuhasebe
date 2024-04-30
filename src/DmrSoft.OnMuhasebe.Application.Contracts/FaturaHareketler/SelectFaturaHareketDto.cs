@@ -1,7 +1,8 @@
 using System;
+using DmrSoft.OnMuhasebe.Faturalar;
 using Volo.Abp.Application.Dtos;
 
-namespace DmrSoft.OnMuhasebe.Faturalar;
+namespace DmrSoft.OnMuhasebe.FaturaHareketler;
 
 public class SelectFaturaHareketDto:EntityDto<Guid>
 {
