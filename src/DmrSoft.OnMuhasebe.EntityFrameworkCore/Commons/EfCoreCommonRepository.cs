@@ -145,7 +145,7 @@ public class EfCoreCommonRepository<TEntity> : EfCoreRepository<OnMuhasebeDbCont
             if (difference < 0)//Cari-9999 10000
                 difference = 0;
             var newCode = code.Substring(0, difference);
-            newCode += number;
+            newCode += newNumber;
             return newCode;
 
         }
